@@ -7,8 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-@Configuration
-@ComponentScan(basePackages = "org.ahmedgaber")
 public class SpringSecurityJwtApplication {
 
 	public static void main(String[] args) {
